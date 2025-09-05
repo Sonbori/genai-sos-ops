@@ -102,28 +102,34 @@ npm install
 
 ### 3. 환경 변수 설정
 ```bash
-cp env.sample .env.local
+cp env.local.sample .env.local
 ```
 
 `.env.local` 파일을 편집하여 다음 값들을 설정하세요:
 ```env
-# Supabase 설정
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+# OpenAI API
+OPENAI_API_KEY=your_openai_api_key_here
 
-# OpenAI 설정
-OPENAI_API_KEY=your_openai_api_key
+# Supabase
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url_here
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 
-# 지도 서비스
-NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_access_token
+# App
+NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
 ### 4. 데이터베이스 설정
 ```bash
-# Supabase 프로젝트에서 schema.sql 실행
-psql -h your-supabase-host -U postgres -d postgres -f supabase/schema.sql
+# Supabase 프로젝트 생성 후 마이그레이션 실행
+npm run db:push
 ```
+
+**v0.1 최소 스키마:**
+- `reports`: 신고 기본 정보 (id, created_at, lat, lng, status)
+- `transcripts`: 전사 결과 (report_id, lang, text)
+- `summaries`: 3줄 요약 (report_id, line1, line2, line3, category, priority, confidence)
+- RLS 정책: 익명 읽기 허용, 서비스 역할 쓰기 허용
 
 ### 5. 개발 서버 실행
 ```bash
