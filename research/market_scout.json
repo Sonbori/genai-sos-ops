@@ -1,0 +1,172 @@
+{
+  "market_research": {
+    "survey_date": "2024-09-05",
+    "languages_searched": ["ko", "en", "ja", "zh", "es", "fr"],
+    "time_filter": "last_3_years",
+    "products": [
+      {
+        "product": "한전KDN 재난대피로 안내 플랫폼",
+        "company": "한전KDN",
+        "url": "https://www.dailian.co.kr/news/view/1400947",
+        "region": "한국",
+        "status": "commercial",
+        "pricing": "not_public",
+        "core_features": [
+          "재난·화재 발생 시 최적 대피로 실시간 안내",
+          "화재 연기 확산 및 열전도 반영 확산 모델",
+          "최적 대피 알고리즘 구성"
+        ],
+        "last_update": "2024",
+        "buyer_type": "government_enterprise",
+        "notes": "건물 내 대피로 최적화에 특화",
+        "similarity": 0.6
+      },
+      {
+        "product": "응급똑똑/응급프로",
+        "company": "빔웍스",
+        "url": "https://v.daum.net/v/20240712091027217",
+        "region": "한국",
+        "status": "commercial",
+        "pricing": "not_public",
+        "core_features": [
+          "증상 기반 대화형 중증도 자가 분류",
+          "적합 의료기관 추천",
+          "응급 처치 안내",
+          "응급의료종사자용 환자 분류 시스템"
+        ],
+        "last_update": "2024-07",
+        "buyer_type": "healthcare",
+        "notes": "의료 응급상황에 특화",
+        "similarity": 0.7
+      },
+      {
+        "product": "AI 기반 응급 상황 감지 시스템",
+        "company": "디플리",
+        "url": "https://aitimes.kr/news/articleView.html?idxno=31919",
+        "region": "한국",
+        "status": "commercial",
+        "pricing": "not_public",
+        "core_features": [
+          "AI 기반 군중 밀집도 감지",
+          "위험 예측 솔루션",
+          "디지털 트윈을 통한 위기 상황 시뮬레이션"
+        ],
+        "last_update": "2024",
+        "buyer_type": "government",
+        "notes": "정부세종청사 도입 완료",
+        "similarity": 0.5
+      },
+      {
+        "product": "911 AI 음성 어시스턴트",
+        "company": "Aurelian",
+        "url": "https://aimatters.co.kr/news-report/ai-news/30111",
+        "region": "미국",
+        "status": "commercial",
+        "pricing": "not_public",
+        "core_features": [
+          "911 콜센터 비응급 통화 처리",
+          "AI 음성 어시스턴트"
+        ],
+        "last_update": "2024",
+        "buyer_type": "government",
+        "notes": "워싱턴주 스노호미시 카운티 운영 중",
+        "similarity": 0.8
+      },
+      {
+        "product": "AI 비응급 상황 접수 시스템",
+        "company": "버지니아 페어팩스 카운티",
+        "url": "https://koreadaily.com/article/20250821120322226",
+        "region": "미국",
+        "status": "commercial",
+        "pricing": "not_public",
+        "core_features": [
+          "비응급 상황 접수 AI 시스템",
+          "직원 업무 부담 감소"
+        ],
+        "last_update": "2024",
+        "buyer_type": "government",
+        "notes": "테스트 운영 중",
+        "similarity": 0.7
+      },
+      {
+        "product": "119신고 빅데이터 기반 지능형 재난 상황 인지",
+        "company": "ETRI",
+        "url": "https://ettrends.etri.re.kr/ettrends/202/0905202007/0905202007.html",
+        "region": "한국",
+        "status": "open_source",
+        "pricing": "free",
+        "core_features": [
+          "음성 인식 기술 개발",
+          "사투리 인식 기능",
+          "전북/경남소방본부 시행"
+        ],
+        "last_update": "2024",
+        "buyer_type": "government_research",
+        "notes": "정부 연구 프로젝트",
+        "similarity": 0.9
+      },
+      {
+        "product": "가상 경찰관",
+        "company": "오스틴 경찰국",
+        "url": "https://ettrends.etri.re.kr/ettrends/202/0905202007/0905202007.html",
+        "region": "미국",
+        "status": "research",
+        "pricing": "free",
+        "core_features": [
+          "다국어 자동 전사 및 번역",
+          "AI 가상 경찰관"
+        ],
+        "last_update": "2024",
+        "buyer_type": "government",
+        "notes": "개발 중",
+        "similarity": 0.6
+      }
+    ],
+    "market_gaps": [
+      {
+        "gap": "오프라인 우선 처리 부재",
+        "description": "모든 서비스가 온라인 연결을 전제로 함",
+        "opportunity": "재난 시 통신 불안정 상황 대응",
+        "priority": "high"
+      },
+      {
+        "gap": "멀티모달 처리 한계",
+        "description": "대부분 단일 채널(음성 또는 텍스트)에 집중",
+        "opportunity": "음성+이미지+영상 통합 분석",
+        "priority": "high"
+      },
+      {
+        "gap": "실시간 위치 추정 부족",
+        "description": "GPS 의존적 위치 정보",
+        "opportunity": "멀티모달 위치 추정 기술",
+        "priority": "medium"
+      },
+      {
+        "gap": "다국어/방언 지원 제한",
+        "description": "ETRI 외 대부분 영어/한국어만 지원",
+        "opportunity": "글로벌 확장성",
+        "priority": "medium"
+      },
+      {
+        "gap": "장애인 접근성 부족",
+        "description": "시각/청각 장애인 전용 UX 부재",
+        "opportunity": "접근성 표준 준수",
+        "priority": "high"
+      },
+      {
+        "gap": "프라이버시 보호 한계",
+        "description": "개인정보 수집 최소화 부족",
+        "opportunity": "익명 신고 옵션",
+        "priority": "medium"
+      }
+    ],
+    "competitive_analysis": {
+      "commercial_services": 5,
+      "open_source_projects": 1,
+      "research_projects": 1,
+      "average_similarity": 0.69,
+      "market_saturation": "low",
+      "differentiation_opportunity": "high"
+    }
+  }
+}
